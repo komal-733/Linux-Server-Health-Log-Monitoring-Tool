@@ -1,0 +1,13 @@
+INFO Application started successfully
+INFO User login successful
+INFO Database connection established
+INFO API request processed successfully
+INFO Backup completed successfully
+WARNING High memory usage detected
+WARNING API response time is slow
+WARNING Disk usage is approaching the limit
+ERROR Database connection failed
+ERROR Authentication service unavailable
+ERROR Permission denied while accessing config file
+ERROR Failed to process API request
+ERROR Application crashed unexpectedly
