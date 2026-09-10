@@ -15,3 +15,6 @@ step5 - File Permissions (ls,ls -la,chmod,sudo,chown,ssh-keygen -t ed25519 -C "g
 step6 - CPU & Memory Monitoring (lscpu,top,free -h,vmstat)
 
 step7 - Disk Monitoring (df -h,du -h --maxdepth=1 /,du -sh ., sudo find / -type f -size =100M 2>/dev/null)
+
+step8 - Process Investigation (ps aux,sudo apt install htop,htop,ps aux --sort=-%cpu | head,ps aux --sort=-%mem | head,ps aux | wc -l,ps aux | grep -i zombie)
+
