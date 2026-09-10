@@ -18,3 +18,6 @@ step7 - Disk Monitoring (df -h,du -h --maxdepth=1 /,du -sh ., sudo find / -type 
 
 step8 - Process Investigation (ps aux,sudo apt install htop,htop,ps aux --sort=-%cpu | head,ps aux --sort=-%mem | head,ps aux | wc -l,ps aux | grep -i zombie)
 
+step9 - Service Investigation (systemctl --version, systemctl status, systemctl is-active, journalctl -u nginx -f,systemctl is-enabled, systemctl --failed)
+
+step10 - Network Investigation (ip list,ip route, ss -tulpn,ss -tun,ss -tuln, ip addr, ping -c 4 8.8.8.8)
